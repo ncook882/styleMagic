@@ -1,0 +1,34 @@
+
+/* Based on Sublime Text's Monokai theme */
+
+.cm-s-ipython.CodeMirror {background: #272822; color: #f8f8f2;}
+.cm-s-ipython div.CodeMirror-selected {background: #49483E !important;}
+.cm-s-ipython.CodeMirror ::selection { background: rgba(73, 72, 62, .99); }
+.cm-s-ipython.CodeMirror ::-moz-selection { background: rgba(73, 72, 62, .99); }
+.cm-s-ipython .CodeMirror-gutters {background: #272822; border-right: 0px;}
+.cm-s-ipython .CodeMirror-guttermarker { color: white; }
+.cm-s-ipython .CodeMirror-guttermarker-subtle { color: #d0d0d0; }
+.cm-s-ipython .CodeMirror-linenumber {color: #d0d0d0;}
+.cm-s-ipython .CodeMirror-cursor {border-left: 1px solid #f8f8f0 !important;}
+
+.cm-s-ipython span.cm-comment {color: #75715e;}
+.cm-s-ipython span.cm-atom {color: #ae81ff;}
+.cm-s-ipython span.cm-number {color: #ae81ff;}
+
+.cm-s-ipython span.cm-property, .cm-s-ipython span.cm-attribute {color: #a6e22e;}
+.cm-s-ipython span.cm-keyword {color: #f92672;}
+.cm-s-ipython span.cm-string {color: #e6db74;}
+
+.cm-s-ipython span.cm-variable {color: #a6e22e;}
+.cm-s-ipython span.cm-variable-2 {color: #9effff;}
+.cm-s-ipython span.cm-def {color: #fd971f;}
+.cm-s-ipython span.cm-bracket {color: #f8f8f2;}
+.cm-s-ipython span.cm-tag {color: #f92672;}
+.cm-s-ipython span.cm-link {color: #ae81ff;}
+.cm-s-ipython span.cm-error {background: #f92672; color: #f8f8f0;}
+
+.cm-s-ipython .CodeMirror-activeline-background {background: #373831 !important;}
+.cm-s-ipython .CodeMirror-matchingbracket {
+  text-decoration: underline;
+  color: white !important;
+}
