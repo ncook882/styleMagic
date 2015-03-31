@@ -62,20 +62,10 @@ class StyleMagics(Magics):
     @line_magic
     @magic_arguments()
     @argument('theme', nargs='?', default=None, help='your theme')
-    #@argument('shade', nargs='?', default=None, help='shade')
-    #@argument('file', )
     def style(self,args):
-        #parse the magick arguments
+        #parse the magic arguments
         args = parse_argstring(self.style,args)
         theme = args.theme
-        
-        #location of theme .css files
-        #csspath = os.path.join(get_ipython_dir(),"themes")
-        
-        #Note: os.path.split(f)[-1].split('.')[0]  splits the file path, takes
-        # last part (-1) which contains the file name 'theme.css', then splits
-        #the 'theme' string
-        #themes = dict([(os.path.split(f)[-1].split('.')[0], f) for f in glob.glob(csspath+"\*.css")])  
 
         themes = self.getThemes()
         
